@@ -22,4 +22,4 @@ isSiteUp('www.vivekpoddar.com').then(isUp => {
 
 ## License
 
-MIT © [Vivek Poddar](www.vivekpoddar.com)
+MIT © [Vivek Poddar](http://vivekpoddar.com)
