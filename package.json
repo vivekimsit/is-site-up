@@ -1,0 +1,32 @@
+{
+  "name": "is-site-up",
+  "version": "1.0.0",
+  "description": "Checks if a website is up.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "xo && mocha test"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "api.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "HTTP"
+  ],
+  "author": "Vivek Poddar <vivekimsit@gmail.com> (http://www.vivekpoddar.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2,
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  }
+}
