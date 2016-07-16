@@ -13,11 +13,7 @@ $ npm install --save is-site-up
 ## Usage
 
 ```js
-const isSiteUp = require('is-site-up');
-
-isSiteUp('www.vivekpoddar.com').then(isUp => {
-  console.log(isUp); // true
-});
+node cli.js www.vivekpoddar.com
 ```
 
 ## License
